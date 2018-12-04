@@ -1,6 +1,6 @@
 package com.b2.generator;
 
-import com.github.lalyos.jfiglet.FigletFont;
+//import com.github.lalyos.jfiglet.FigletFont;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.io.BufferedWriter;
@@ -11,8 +11,9 @@ public class Main {
 
   public static void main(String[] args) {
     try {
-      String gAscii = FigletFont.convertOneLine("Gresham");
-
+      //String gAscii = FigletFont.convertOneLine("Gresham");
+      
+      String gAscii = "Gresham";
       System.out.print("Working");
 
       for (int i = 0; i < 5; i++) {
